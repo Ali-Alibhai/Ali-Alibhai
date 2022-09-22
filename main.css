@@ -1,0 +1,155 @@
+/* Adding styling to the Top Nav*/
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+	border-radius: 16px;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+	width: auto;
+}
+/* styling links inside nav bar */
+.topnav a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+
+/*Color of links on hover*/
+.topnav a:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+/*Color of the active link
+.topnav a.active{
+	background-color: #04AA6D;
+	color: red;
+}*/
+
+/*hero section*/
+body, html {
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*hero image gradient*/
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1600");
+	/*Height*/
+	height: 60%;
+/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+/* Place text in the middle of the image */
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 25px;
+}
+
+/*button styling*/
+.main-button {
+	text-decoration: none;
+	border: none;
+	border-radius: 8px;
+	padding: 14px 28px;
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+/*about me*/
+.column {
+  float: left;
+  width: 49%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*different font*/
+.subscript{
+	font-family: "Times New Roman", Times, serif;
+	color: grey;
+}
+
+/*Contact me*/
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.cont {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.lumn {
+	float: left;
+	width: 47%;
+	margin-top: 6px;
+	padding: 20px;
+}
+
+.ro:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
